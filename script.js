@@ -18,7 +18,7 @@ let bestScore = localStorage.getItem('bestScore') ? parseInt(localStorage.getIte
 let gameOver = false;
 
 const backgroundImage = new Image();
-backgroundImage.src = '3.png';
+backgroundImage.src = 'back.png';
 
 const planeImage = new Image();
 planeImage.src = '1.png';
